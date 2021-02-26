@@ -36,7 +36,7 @@ const removeTodo = id => {
 
   return (
     <View>
-      <Navbar title='App Todo' />
+      <Navbar title='Kvant Application' />
       <View style={styles.container}>
       <AddTodo onSubmit={addTodo} />
 
